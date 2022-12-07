@@ -6,8 +6,8 @@ import {
 } from '@material-ui/icons';
 import React, { useState } from 'react';
 import './MessageSender.css'
-import { useStateValue } from './StateProvider';
-import db from './firebase';
+import { useStateValue } from '../../services/StateProvider';
+import db from '../../services/firebase';
 import firebase from 'firebase';
 
 function MessageSender() {

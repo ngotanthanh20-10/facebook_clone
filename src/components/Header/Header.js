@@ -13,7 +13,7 @@ import {
     NotificationsActive,
     ExpandMore
 } from '@material-ui/icons';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../../services/StateProvider';
 
 function Header() {
     const [{ user }, dispatch] = useStateValue();

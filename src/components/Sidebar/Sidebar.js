@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import SidebarRow from './SidebarRow';
+import SidebarRow from '../SidebarRow/SidebarRow';
 import { 
     LocalHospital, 
     EmojiFlags, 
@@ -10,7 +10,7 @@ import {
     VideoLibrary,
     ExpandMoreOutlined 
 } from '@material-ui/icons';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../../services/StateProvider';
 
 function Sidebar() {
     const [{ user }, dispatch] = useStateValue();
